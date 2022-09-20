@@ -1,82 +1,120 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@InProceedings{pmlr-v100-mehta20a,
+  title = 	 {Active Domain Randomization},
+  author =       {Mehta, Bhairav and Diaz, Manfred and Golemo, Florian and Pal, Christopher J. and Paull, Liam},
+  booktitle = 	 {Proceedings of the Conference on Robot Learning},
+  pages = 	 {1162--1176},
+  year = 	 {2020},
+  editor = 	 {Kaelbling, Leslie Pack and Kragic, Danica and Sugiura, Komei},
+  volume = 	 {100},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v100/mehta20a.html},
+  abstract = 	 {Domain randomization is a popular technique for improving domain transfer, often used in a zero-shot setting when the target domain is unknown or cannot easily be used for training. In this work, we empirically examine the effects of domain randomization on agent generalization. Our experiments show that domain randomization may lead to suboptimal, high-variance policies, which we attribute to the uniform sampling of environment parameters. We propose Active Domain Randomization, a novel algorithm that learns a parameter sampling strategy. Our method looks for the most informative environment variations within the given randomization ranges by leveraging the discrepancies of policy rollouts in randomized and reference environment instances. We find that training more frequently on these instances leads to better overall agent generalization. Our experiments across various physics-based simulated and real-robot tasks show that this enhancement leads to more robust, consistent policies.},
+  selected = {true},
+  code = {https://github.com/montrealrobotics/active-domainrand},
+  preview = {https://github.com/montrealrobotics/active-domainrand/raw/master/adr.gif}
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@InProceedings{10.1007/978-3-030-29135-8_3,
+  author="Zilly, Julian
+  and Tani, Jacopo
+  and Considine, Breandan
+  and Mehta, Bhairav
+  and Daniele, Andrea F.
+  and Diaz, Manfred
+  and Bernasconi, Gianmarco
+  and Ruch, Claudio
+  and Hakenberg, Jan
+  and Golemo, Florian
+  and Bowser, A. Kirsten
+  and Walter, Matthew R.
+  and Hristov, Ruslan
+  and Mallya, Sunil
+  and Frazzoli, Emilio
+  and Censi, Andrea
+  and Paull, Liam",
+  editor="Escalera, Sergio
+  and Herbrich, Ralf",
+  title="The AI Driving Olympics at NeurIPS 2018",
+  booktitle="The NeurIPS '18 Competition",
+  year="2020",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="37--68",
+  abstract="Despite recent breakthroughs, the ability of deep learning and reinforcement learning to outperform traditional approaches to control physically embodied robotic agents remains largely unproven. To help bridge this gap, we present the ``AI Driving Olympics'' (AI-DO), a competition with the objective of evaluating the state of the art in machine learning and artificial intelligence for mobile robotics. Based on the simple and well-specified autonomous driving and navigation environment called ``Duckietown,'' the AI-DO includes a series of tasks of increasing complexity---from simple lane-following to fleet management. For each task, we provide tools for competitors to use in the form of simulators, logs, code templates, baseline implementations and low-cost access to robotic hardware. We evaluate submissions in simulation online, on standardized hardware environments, and finally at the competition event. The first AI-DO, AI-DO 1, occurred at the Neural Information Processing Systems (NeurIPS) conference in December 2018. In this paper we will describe the AI-DO 1 including the motivation and design objections, the challenges, the provided infrastructure, an overview of the approaches of the top submissions, and a frank assessment of what worked well as well as what needs improvement. The results of AI-DO 1 highlight the need for better benchmarks, which are lacking in robotics, as well as improved mechanisms to bridge the gap between simulation and reality.",
+  isbn="978-3-030-29135-8",
+  pdf = {https://arxiv.org/pdf/1903.02503.pdf},
+  preview = {duckienet.png},
+  website = {https://www.duckietown.org/research/AI-Driving-olympics}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@InProceedings{Diaz_2017_ICCV,
+  author = {Diaz, Manfred and Girgis, Roger and Fevens, Thomas and Cooperstock, Jeremy},
+  title = {To Veer or Not to Veer: Learning From Experts How to Stay Within the Crosswalk},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV) Workshops},
+  month = {Oct},
+  year = {2017},
+  pdf = {http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w22/Diaz_To_Veer_or_ICCV_2017_paper.pdf},
+  code = {},
+  preview = {walking_straight.gif},
+  selected = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@misc{https://doi.org/10.48550/arxiv.2110.04686,
+  doi = {10.48550/ARXIV.2110.04686},
+  url = {https://arxiv.org/abs/2110.04686},
+  author = {Gu, Shixiang Shane and Diaz, Manfred and Freeman, Daniel C. and Furuta, Hiroki and Ghasemipour, Seyed Kamyar Seyed and Raichuk, Anton and David, Byron and Frey, Erik and Coumans, Erwin and Bachem, Olivier},
+  title = {Braxlines: Fast and Interactive Toolkit for RL-driven Behavior Engineering beyond Reward Maximization},
+  publisher = {arXiv},
+  year = {2021},
+  pdf = {https://arxiv.org/pdf/2110.04686},
+  abstract = {The goal of continuous control is to synthesize desired behaviors. In reinforcement learning (RL)-driven approaches, this is often accomplished through careful task reward engineering for efficient exploration and running an off-the-shelf RL algorithm. While reward maximization is at the core of RL, reward engineering is not the only -- sometimes nor the easiest -- way for specifying complex behaviors. In this paper, we introduce \braxlines, a toolkit for fast and interactive RL-driven behavior generation beyond simple reward maximization that includes Composer, a programmatic API for generating continuous control environments, and set of stable and well-tested baselines for two families of algorithms -- mutual information maximization (MiMax) and divergence minimization (DMin) -- supporting unsupervised skill learning and distribution sketching as other modes of behavior specification. In addition, we discuss how to standardize metrics for evaluating these algorithms, which can no longer rely on simple reward maximization. Our implementations build on a hardware-accelerated Brax simulator in Jax with minimal modifications, enabling behavior synthesis within minutes of training. We hope Braxlines can serve as an interactive toolkit for rapid creation and testing of environments and behaviors, empowering explosions of future benchmark designs and new modes of RL-driven behavior generation and their algorithmic research.},
+  selected = {true},
+  code = {https://github.com/google/brax/tree/main/brax/experimental/braxlines},
+  preview = {https://github.com/google/brax/raw/main/docs/img/braxlines/ant_diayn_skill1.gif}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{
+  diaz2022generalization,
+  title={Generalization Games for Reinforcement Learning},
+  author={Manfred Diaz and Charlie Gauthier and Glen Berseth and Liam Paull},
+  booktitle={ICLR 2022 Workshop on Gamification and Multiagent Solutions},
+  year={2022},
+  url={https://openreview.net/forum?id=Hq_Oj9JTxq},
+  pdf = {https://openreview.net/pdf?id=Hq_Oj9JTxq},
+  abstract = {In reinforcement learning (RL), the term generalization has either denoted introducing function approximation to reduce the intractability of large state and action spaces problems or designated RL agents' ability to transfer learned experiences to one or more evaluation tasks. Recently, many subfields have emerged to understand how distributions of training tasks affect an RL agent's performance in unseen environments. While the field is extensive and ever-growing, recent research has underlined that variability among the different approaches is not as significant. We leverage this intuition to demonstrate how current methods for generalization in RL are specializations of a general framework. We obtain the fundamental aspects of this formulation by rebuilding a Markov Decision Process (MDP) from the ground up by resurfacing the game-theoretic framework of games against nature. The two-player game that arises from considering nature as a complete player in this formulation explains how existing methods rely on learned and randomized dynamics and initial state distributions. We develop this result further by drawing inspiration from mechanism design theory to introduce the role of a principal as a third player that can modify the payoff functions of the decision-making agent and nature. The games induced by playing against the principal extend our framework to explain how learned and randomized reward functions induce generalization in RL agents. The main contribution of our work is the complete description of the Generalization Games for Reinforcement Learning, a multiagent, multiplayer, game-theoretic formal approach to study generalization methods in RL. We offer a preliminary ablation experiment of the different components of the framework. We demonstrate that a more simplified composition of the objectives that we introduce for each player leads to comparable, and in some cases superior, zero-shot generalization compared to state-of-the-art methods, all while requiring almost two orders of magnitude fewer samples.},
+  selected = {true},
+  preview = {3mg.svg}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@INPROCEEDINGS{9469495,
+  author={Diaz, Manfred and Fevens, Thomas and Paull, Liam},
+  booktitle={2021 18th Conference on Robots and Vision (CRV)}, 
+  title={Uncertainty-Aware Policy Sampling and Mixing for Safe Interactive Imitation Learning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={72-78},
+  doi={10.1109/CRV52889.2021.00018},
+  abstract = {One of the many challenges faced by visually impaired (VI) individuals is the crossing of intersections while remaining within the crosswalk. We present a Learning from Demonstration (LfD) approach to tackle this problem and provide VI users with an assistive agent. Contrary to previous methods, our solution does not presume the existence of particular features in crosswalks. The application of the LfD framework helped us transfer sighted individuals' abilities to the intelligent assistive agent. Our proposed approach started from a collection of 215 demonstrative videos of intersection crossings executed by sighted individuals (" the experts"). We labeled the video frames to gather the experts' recommended actions, and then applied a policy derivation technique to extract the optimal behavior using state-of-the-art Convolutional Neural Networks. Finally, to assess the feasibility of such a solution, we evaluated the performance of the trained agent in predicting expert actions.},
+  pdf = {http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w22/Diaz_To_Veer_or_ICCV_2017_paper.pdf},
+  preview = {covariate_shift_policy.png},
+  code = {https://github.com/manfreddiaz/safe-iil}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{
+  anonymous2021loco,
+  title={{LOCO}: Adaptive exploration in reinforcement learning via local estimation of contraction coefficients},
+  author={Manfred Diaz and Liam Paull and Pablo Samuel Castro},
+  booktitle={Self-Supervision for Reinforcement Learning Workshop - ICLR 2021},
+  year={2021},
+  url={https://openreview.net/forum?id=SmvsysIyHW-},
+  abstract = {We offer a novel approach to balance exploration and exploitation in reinforcement learning (RL). To do so, we characterize an environment’s exploration difficulty via the Second Largest Eigenvalue Modulus (SLEM) of the Markov chain induced by uniform stochastic behaviour. Specifically, we investigate the connection of state-space coverage with the SLEM of this Markov chain and use the theory of contraction coefficients to derive estimates of this eigenvalue of interest. Furthermore, we introduce a method for estimating the contraction coefficients on a local level and leverage it to design a novel exploration algorithm. We evaluate our algorithm on a series of GridWorld tasks of varying sizes and complexity.},
+  pdf = {https://openreview.net/pdf?id=SmvsysIyHW-}
 }

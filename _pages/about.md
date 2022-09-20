@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph. D candidate at <a href='http://mila.quebec/'>Mila</a> and <a href="https://montrealrobotics.ca/">Montreal Robotics</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><center><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Montreal, QC, Canada</center></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am a final year PhD student in Machine Learning and Robotics at [Mila](http://mila.quebec/) under the supervision of [Liam Paull](http://liampaull.ca) with focus on curriculum and generalization in reinforcement learning. I have interned at [J.P. Morgan AI Research](https://www.jpmorgan.com/technology/artificial-intelligence), [Motional Inc.](https://motional.com), and [Huawei Noah's Ark Lab Canada](https://www.huawei.com/ca/technology-insights/industry-insights/technology/ai).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Earlier, I graduated from Concordia University with an M.Sc. in Computer Science under [Thomas Fevens](http://users.encs.concordia.ca/~fevens/). Simultaneously, I spent a year as a visiting researcher in the [Shared Reality Lab](https://srl.mcgill.ca/) at McGill University under the supervision of Jeremy Cooperstock. Before, I completed a B.Sc. in Computer Science with _summa cum laude_ from Universidad de las Ciencias Informaticas in Havana, Cuba.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
