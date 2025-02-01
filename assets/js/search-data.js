@@ -4,40 +4,33 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order",
+          title: "Publications",
+          description: "This is a list of the publications I have been involved listed in reversed chronological order",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-open-source",
-          title: "open source",
+          title: "Open Source",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "Short summary of my curriculum vitae.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -321,6 +314,27 @@ ninja.data = [{
           section: "News",},{id: "news-i-gave-an-invited-talk-on-generalization-games-for-rl-at-berkeley-mals-and-mila-rl-sofa",
           title: 'I gave an invited talk on Generalization Games for RL at Berkeley MALS...',
           description: "",
+          section: "News",},{id: "news-i-am-attending-the-cooperative-ai-summer-school-in-london",
+          title: 'I am attending the Cooperative AI Summer School in London!',
+          description: "",
+          section: "News",},{id: "news-excited-to-start-as-an-ai-resident-at-google-x-in-mountain-view",
+          title: 'Excited to start as an AI Resident at Google X in Mountain View!...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-milnor-myerson-games-a-framework-describing-a-multiplayer-interaction-structure-at-the-core-of-machine-ml-has-been-accepted-for-presentation-on-the-finding-the-frame-workshop-at-rlc-2024-see-you-all-in-amherst",
+          title: 'Our work on Milnor-Myerson Games, a framework describing a multiplayer interaction structure at...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-a-cooperative-game-theoretic-approach-to-study-the-teacher-student-curriculum-learning-framework-has-been-accepted-as-is-for-publication-on-tmlr",
+          title: 'Our work on a cooperative game-theoretic approach to study the teacher-student curriculum learning...',
+          description: "",
+          section: "News",},{id: "news-new-paper-out-excited-to-present-soft-condorcet-optimization-a-novel-ranking-method-that-amortizes-the-search-for-condorcet-winners-through-an-approximation-of-the-np-hard-kemmeny-young-voting-method",
+          title: 'New paper out! Excited to present Soft Condorcet Optimization, a novel ranking method...',
+          description: "",
+          section: "News",},{id: "news-proud-to-annouce-that-our-work-on-a-new-theory-of-appropriateness-for-generative-ai-is-finally-out-on-arxiv-massive-multi-year-collaboration-led-by-joel-and-sasha-at-google-deepmind",
+          title: 'Proud to annouce that our work on a new theory of appropriateness for...',
+          description: "",
+          section: "News",},{id: "news-best-paper-nomination-alert-soft-condorcet-optimization-has-been-nominated-for-a-best-paper-award-at-aamas-2025",
+          title: 'Best paper nomination alert! Soft Condorcet Optimization has been nominated for a best...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -371,7 +385,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("manfreddiaz.bsky.social", "_blank");
+          window.open("https://bsky.app/profile/manfreddiaz.bsky.social", "_blank");
         },
       },{
         id: 'social-email',
