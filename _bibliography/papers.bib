@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @InProceedings{pmlr-v100-mehta20a,
   title = 	 {Active Domain Randomization},
   author =       {Mehta, Bhairav and Diaz, Manfred and Golemo, Florian and Pal, Christopher J. and Paull, Liam},
@@ -57,8 +56,12 @@
   month = {Oct},
   year = {2017},
   pdf = {http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w22/Diaz_To_Veer_or_ICCV_2017_paper.pdf},
-  code = {},
   preview = {walking_straight.gif},
+  abstract = {One of the many challenges faced by visually impaired (VI) individuals is the crossing of intersections while remaining within the crosswalk. We present a Learning from Demonstration (LfD) approach to tackle this problem and
+provide VI users with an assistive agent. Contrary to previous methods, our solution does not presume the existence of particular features in crosswalks. The application of the LfD framework helped us transfer sighted individuals’
+abilities to the intelligent assistive agent. Our proposed approach started from a collection of 215 demonstrative videos of intersection crossings executed by sighted individuals (”the experts”). We labeled the video frames to gather the experts’ recommended actions, and then applied
+a policy derivation technique to extract the optimal behavior using state-of-the-art Convolutional Neural Networks. Finally, to assess the feasibility of such a solution, we eval-
+uated the performance of the trained agent in predicting expert actions.}
 }
 
 @misc{https://doi.org/10.48550/arxiv.2110.04686,
@@ -126,6 +129,8 @@
   archivePrefix = "arXiv",
   primaryClass  = "cs.AI",
   selected = {true},
+  abstract = {What is appropriateness? Humans navigate a multi-scale mosaic of interlocking notions of what is appropriate for different situations. We act one way with our friends, another with our family, and yet another in the office. Likewise for AI, appropriate behavior for a comedy-writing assistant is not the same as appropriate behavior for a customer-service representative. What determines which actions are appropriate in which contexts? And what causes these standards to change over time? Since all judgments of AI appropriateness are ultimately made by humans, we need to understand how appropriateness guides human decision making in order to properly evaluate AI decision making and improve it. This paper presents a theory of appropriateness: how it functions in human society, how it may be implemented in the brain, and what it means for responsible deployment of generative AI technology.},
+  pdf = {https://arxiv.org/pdf/2412.19010}
 }
 
 @ARTICLE{diaz2024tscl,
@@ -135,6 +140,8 @@
   journal = "Transactions on Machine Learning Research",
   year    =  2024,
   selected = {true},
+  abstract = {},
+  pdf = {}
 }
 
 @ARTICLE{lanctot2024sco,
@@ -149,6 +156,8 @@
   archivePrefix = "arXiv",
   primaryClass  = "cs.MA",
   selected = {true},
+  abstract = {A common way to drive progress of AI models and agents is to compare their performance on standardized benchmarks. Comparing the performance of general agents requires aggregating their individual performances across a potentially wide variety of different tasks. In this paper, we describe a novel ranking scheme inspired by social choice frameworks, called Soft Condorcet Optimization (SCO), to compute the optimal ranking of agents: the one that makes the fewest mistakes in predicting the agent comparisons in the evaluation data. This optimal ranking is the maximum likelihood estimate when evaluation data (which we view as votes) are interpreted as noisy samples from a ground truth ranking, a solution to Condorcet's original voting system criteria. SCO ratings are maximal for Condorcet winners when they exist, which we show is not necessarily true for the classical rating system Elo. We propose three optimization algorithms to compute SCO ratings and evaluate their empirical performance. When serving as an approximation to the Kemeny-Young voting method, SCO rankings are on average 0 to 0.043 away from the optimal ranking in normalized Kendall-tau distance across 865 preference profiles from the PrefLib open ranking archive. In a simulated noisy tournament setting, SCO achieves accurate approximations to the ground truth ranking and the best among several baselines when 59\% or more of the preference data is missing. Finally, SCO ranking provides the best approximation to the optimal ranking, measured on held-out test sets, in a problem containing 52,958 human players across 31,049 games of the classic seven-player game of Diplomacy.},
+  pdf = {https://arxiv.org/pdf/2411.00119}
 }
 
 @INPROCEEDINGS{Diaz2024milnormyerson,
@@ -158,5 +167,7 @@
   booktitle = "{Finding The Frame: An RLC Workshop for Examining Conceptual
                Frameworks}",
   year      = 2024,
-  selected = {true}
+  selected = {true},
+  abstract = {In this paper, we introduce Milnor-Myerson games, a multiplayer interaction structure at the core of machine learning (ML), to shed light on the fundamental principles and implications the artificial principal-agent problem has had in landmark ML results like AlphaGo and large language models (LLMs).},
+  pdf = {https://openreview.net/pdf?id=LNYJrXdk45}
 }

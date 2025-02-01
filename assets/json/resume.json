@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Manfred Diaz",
-    "label": "Research Scientist",
+    "label": "Ph. D. Candidate",
     "image": "",
     "email": "diazcabm@mila.quebec",
     "phone": "+1-(514)-248-8457",
@@ -47,7 +47,7 @@
       "institution": "Concordia University",
       "location": "Montreal, Canada",
       "url": "https://www.concordia.ca/",
-      "area": "Software Development",
+      "area": "Computer Science",
       "studyType": "M.Sc.",
       "startDate": "2016-05-01",
       "endDate": "2018-09-01"
