@@ -205,7 +205,7 @@ To remove the projects, you can:
 
 - delete the [\_projects](_projects/) directory
 - delete the projects page [\_pages/_projects.md](_pages/_projects.md)
-- remove reference to projects page in our [\_pages/_dropdown.md](_pages/dropdown.md)
+- remove reference to projects page in our [\_pages/_dropdown.md](_pages/_dropdown.md)
 - remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 You can also:
