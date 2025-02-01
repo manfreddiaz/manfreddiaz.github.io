@@ -32,19 +32,19 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Short summary of my curriculum vitae.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "dropdown-publications",
+              title: "publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -52,7 +52,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/12/04/photo-gallery.html";
+          window.location.href = "/blog/2024/photo-gallery/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -74,7 +74,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/05/01/tabs.html";
+          window.location.href = "/blog/2024/tabs/";
         
       },
     },{id: "post-a-post-with-typograms",
@@ -85,7 +85,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/29/typograms.html";
+          window.location.href = "/blog/2024/typograms/";
         
       },
     },{id: "post-a-post-that-can-be-cited",
@@ -96,7 +96,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/28/post-citation.html";
+          window.location.href = "/blog/2024/post-citation/";
         
       },
     },{id: "post-a-post-with-pseudo-code",
@@ -107,7 +107,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/15/pseudocode.html";
+          window.location.href = "/blog/2024/pseudocode/";
         
       },
     },{id: "post-a-post-with-code-diff",
@@ -118,7 +118,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/code-diff.html";
+          window.location.href = "/blog/2024/code-diff/";
         
       },
     },{id: "post-a-post-with-advanced-image-components",
@@ -129,7 +129,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/advanced-images.html";
+          window.location.href = "/blog/2024/advanced-images/";
         
       },
     },{id: "post-a-post-with-vega-lite",
@@ -140,7 +140,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/vega-lite.html";
+          window.location.href = "/blog/2024/vega-lite/";
         
       },
     },{id: "post-a-post-with-geojson",
@@ -151,7 +151,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
+          window.location.href = "/blog/2024/geojson-map/";
         
       },
     },{id: "post-a-post-with-echarts",
@@ -162,7 +162,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/echarts.html";
+          window.location.href = "/blog/2024/echarts/";
         
       },
     },{id: "post-a-post-with-chart-js",
@@ -173,7 +173,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/chartjs.html";
+          window.location.href = "/blog/2024/chartjs/";
         
       },
     },{id: "post-a-post-with-tikzjax",
@@ -184,7 +184,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/12/12/tikzjax.html";
+          window.location.href = "/blog/2023/tikzjax/";
         
       },
     },{id: "post-a-post-with-bibliography",
@@ -195,7 +195,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/07/12/post-bibliography.html";
+          window.location.href = "/blog/2023/post-bibliography/";
         
       },
     },{id: "post-a-post-with-jupyter-notebook",
@@ -206,7 +206,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/07/04/jupyter-notebook.html";
+          window.location.href = "/blog/2023/jupyter-notebook/";
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
@@ -217,7 +217,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/05/12/custom-blockquotes.html";
+          window.location.href = "/blog/2023/custom-blockquotes/";
         
       },
     },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -228,7 +228,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/25/sidebar-table-of-contents.html";
+          window.location.href = "/blog/2023/sidebar-table-of-contents/";
         
       },
     },{id: "post-a-post-with-audios",
@@ -239,7 +239,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/25/audios.html";
+          window.location.href = "/blog/2023/audios/";
         
       },
     },{id: "post-a-post-with-videos",
@@ -250,7 +250,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/24/videos.html";
+          window.location.href = "/blog/2023/videos/";
         
       },
     },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -261,7 +261,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/03/20/tables.html";
+          window.location.href = "/blog/2023/tables/";
         
       },
     },{id: "post-a-post-with-table-of-contents",
@@ -272,7 +272,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
+          window.location.href = "/blog/2023/table-of-contents/";
         
       },
     },{id: "post-a-post-with-giscus-comments",
@@ -283,7 +283,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/external-services/2022/12/10/giscus-comments.html";
+          window.location.href = "/blog/2022/giscus-comments/";
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -305,7 +305,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/2021/05/22/distill.html";
+          window.location.href = "/blog/2021/distill/";
         
       },
     },{id: "post-a-post-with-disqus-comments",
@@ -316,7 +316,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/external-services/2015/10/20/disqus-comments.html";
+          window.location.href = "/blog/2015/disqus-comments/";
         
       },
     },{id: "news-our-paper-generalization-games-for-reinforcement-learning-has-been-accepted-for-presentation-at-iclr-workshop-on-gamification-and-multiagent-solutions",
@@ -393,13 +393,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/manfreddiaz", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
