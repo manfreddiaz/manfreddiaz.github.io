@@ -1,19 +1,27 @@
-"Paull":
+"paull":
   - firstname: ["Liam"]
     url: http://liampaull.ca
 
-"Castro":
+"castro":
   - firstname: ["Pablo Samuel"]
     url: https://psc-g.github.io/
 
-"Gu":
+"gu":
   - firstname: ["Shixiang Shane", "Shane"]
     url: https://sites.google.com/view/gugurus/home
 
-"Fevens": 
+"fevens": 
   - firstname: ["Thomas"]
     url: http://users.encs.concordia.ca/~fevens/
 
-"Mehta":
+"mehta":
   - firstname: ["Bhairav"]
     url: https://bhairavmehta95.github.io/
+
+"leibo":
+  - firstname: ["Joel Z"]
+    url: https://www.jzleibo.com/
+
+"lanctot":
+  - firstname: ["Marc"]
+    url: https://mlanctot.info

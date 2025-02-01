@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph. D candidate at <a href='http://mila.quebec/'>Mila</a> and <a href="https://montrealrobotics.ca/">Montreal Robotics</a>.
 
