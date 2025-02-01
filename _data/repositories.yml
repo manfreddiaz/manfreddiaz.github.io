@@ -1,6 +1,8 @@
 github_users:
   - manfreddiaz
 
+repo_description_lines_max: 2
+
 github_repos:
   - manfreddiaz/active-domainrand
   - manfreddiaz/awesome-autonomous-vehicles
