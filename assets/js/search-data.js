@@ -325,7 +325,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-as-a-research-intern-at-j-p-morgan-ai-research-in-london",
           title: 'I started as a Research Intern at J. P. Morgan AI Research in...',
           description: "",
-          section: "News",},{id: "news-i-gave-an-invited-talk-on-generalization-games-for-rl-at-berkeley-mals-and-mila-rl-sofa-access-the-recording-here",
+          section: "News",},{id: "news-i-gave-an-invited-talk-on-generalization-games-for-rl-at-berkeley-mals-and-mila-rl-sofa",
           title: 'I gave an invited talk on Generalization Games for RL at Berkeley MALS...',
           description: "",
           section: "News",},{id: "projects-project-1",
