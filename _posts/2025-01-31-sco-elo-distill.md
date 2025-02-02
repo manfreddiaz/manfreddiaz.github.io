@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: a distill-style blog post
+title: A Propos of Soft Condorcet Optimization and The Elo Rating System
 description: an example of a distill-style blog post and main elements
 tags: distill formatting
 giscus_comments: true
-date: 2021-05-22
+date: 2025-01-31
 featured: true
 mermaid:
   enabled: true
@@ -19,18 +19,10 @@ tikzjax: true
 typograms: true
 
 authors:
-  - name: Albert Einstein
+  - name: Manfred Diaz
     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: Mila, University of Montreal
 
 bibliography: 2018-12-22-distill.bib
 

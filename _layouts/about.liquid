@@ -43,27 +43,27 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit"><i class="fa-regular fa-newspaper"></i>&nbsp;News</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit"><i class="fa-regular fa-newspaper"></i>&nbsp;Updates</a>
       </h2><hr style="margin: 0.1em auto;"/>
       {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><i class="fa-brands fa-google-scholar"></i>&nbsp;&nbsp;Selected Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><i class="fa-brands fa-google-scholar"></i>&nbsp;&nbsp;Recent Publications</a>
       </h2>
       <hr style="margin: 0.1em auto;"/>
 
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit"><i class="fa-solid fa-blog"></i>&nbsp;Posts</a>
+      </h2><hr style="margin: 0.1em auto;"/>
+      {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Social -->
