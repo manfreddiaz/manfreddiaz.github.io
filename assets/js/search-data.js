@@ -71,7 +71,7 @@ ninja.data = [{
           section: "News",},{id: "news-best-paper-nomination-soft-condorcet-optimization-has-been-nominated-for-a-best-paper-award-at-aamas-2025-a-propos-here-are-some-notes-i-developed-while-working-on-sco-to-understand-the-sco-elo-relationship-they-should-come-as-a-blog-post-soon",
           title: 'Best paper nomination! Soft Condorcet Optimization has been nominated for a best paper...',
           description: "",
-          section: "News",},{id: "news-aamas-2025-tutorial-together-with-marc-lanctot-kate-larson-and-ian-gemp-we-are-be-presenting-a-tutorial-on-evaluation-of-general-ai-agents-at-aamas-2025-website-and-tutorial-notes-are-coming-soon",
+          section: "News",},{id: "news-aamas-2025-tutorial-together-with-marc-lanctot-kate-larson-and-ian-gemp-we-are-presenting-a-tutorial-on-evaluation-of-general-ai-agents-at-aamas-2025-website-and-tutorial-notes-are-coming-soon",
           title: 'AAMAS 2025 Tutorial! Together with Marc Lanctot, Kate Larson and Ian Gemp we...',
           description: "",
           section: "News",},{id: "projects-project-1",
