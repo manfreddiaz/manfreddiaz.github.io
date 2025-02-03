@@ -68,7 +68,7 @@ ninja.data = [{
           section: "News",},{id: "news-proud-to-annouce-that-our-work-on-a-new-theory-of-appropriateness-for-generative-ai-is-finally-out-on-arxiv-massive-multi-year-collaboration-led-by-joel-and-sasha-at-google-deepmind",
           title: 'Proud to annouce that our work on a new theory of appropriateness for...',
           description: "",
-          section: "News",},{id: "news-best-paper-nomination-soft-condorcet-optimization-has-been-nominated-for-a-best-paper-award-at-aamas-2025",
+          section: "News",},{id: "news-best-paper-nomination-soft-condorcet-optimization-has-been-nominated-for-a-best-paper-award-at-aamas-2025-a-propos-here-are-some-notes-i-developed-while-working-on-sco-to-understand-the-sco-elo-relationship-they-should-come-as-a-blog-post-soon",
           title: 'Best paper nomination! Soft Condorcet Optimization has been nominated for a best paper...',
           description: "",
           section: "News",},{id: "projects-project-1",
