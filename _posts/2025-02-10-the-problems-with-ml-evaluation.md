@@ -27,12 +27,6 @@ authors:
 
 bibliography: 2025-02-10-problems-with-ml-evaluation.bib
 
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Introduction
     # if a section has subsections, you can add them as follows:
@@ -82,8 +76,8 @@ In this post, the first of a three-part series, I want to share my perspective o
 ### Statistical Evaluation
 
 
-| Left aligned | Center aligned | Right aligned |
-| :----------- | :------------: | ------------: |
+| __Algorithm__ | $H_1$ | Right aligned |
+| :-----------:| :------------: | ------------: |
 | Left 1       |    center 1    |       right 1 |
 | Left 2       |    center 2    |       right 2 |
 | Left 3       |    center 3    |       right 3 |
