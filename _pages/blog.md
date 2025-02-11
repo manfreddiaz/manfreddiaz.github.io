@@ -1,10 +1,10 @@
 ---
 layout: default
 permalink: /blog/
-title: Blog
+title: SGoT
 icon: <i class="fa-solid fa-blog"></i>
 nav: true
-nav_order: 1
+nav_order: 2
 pagination:
   enabled: true
   collection: posts
