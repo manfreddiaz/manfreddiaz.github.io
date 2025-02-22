@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /sgot/
 title: SGoT
 icon: <i class="fa-solid fa-blog"></i>
 nav: true

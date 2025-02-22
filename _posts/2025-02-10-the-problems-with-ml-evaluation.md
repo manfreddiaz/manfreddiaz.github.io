@@ -150,7 +150,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>84&plusmn;8.0</td>
             <td>80</td>
             <td>80.00</td>
-            <td></td>
+            <td>80.00</td>
         </tr>
         <tr>
             <td>DQY</td>
@@ -159,7 +159,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>79&plusmn;2.0</td>
             <td>80</td>
             <td>80.00</td>
-            <td></td>
+            <td>80.00</td>
         </tr>
         <tr>
             <td>T3C</td>
@@ -168,7 +168,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>76&plusmn;13</td>
             <td>80</td>
             <td>81.67</td>
-            <td></td>
+            <td>81.67</td>
         </tr>
     </tbody>
 </table>
@@ -197,7 +197,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>*</td>
             <td>1</td>
             <td>2</td>
-            <td></td>
+            <td>2</td>
         </tr>
         <tr>
             <td>DQN</td>
@@ -206,7 +206,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>*</td>
             <td>1</td>
             <td>2</td>
-            <td></td>
+            <td>2</td>
         </tr>
         <tr>
             <td>TD3</td>
@@ -215,7 +215,7 @@ __Reductions__.The statistical approach reduces data in the form presented on Ta
             <td>*</td>
             <td>1</td>
             <td>1</td>
-            <td></td>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
@@ -238,7 +238,7 @@ __Scales & Measurements__ Do metric functions always reflect interval scales? Do
 This is fundamental problem, and one that has been largely overlooked when applying statistical inference methods to ML evaluation. Not every statistic properly applies to summarize data; the application heavily depends on the nature of data scales<d-cite key="stevens1946scalesmeasurements"></d-cite>.  Profound implications<d-cite key="liddell2018ordinalmeasurements"></d-cite>.
 
 
-
+[Notebook](https://colab.research.google.com/drive/1hnjwngxoMhcYP3ojCC6_Ff1zvyE8m-Rm?usp=sharing)
 
 <!-- 
 ### Metrics Aggregation
