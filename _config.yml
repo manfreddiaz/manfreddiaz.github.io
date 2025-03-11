@@ -118,9 +118,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # # Blog
 # # -----------------------------------------------------------------------------
 
-blog_name: Random Musings # blog_name will be displayed in your blog page
-blog_description: Random ideas about machine learning, game theory, and other areas.
-permalink: /blog/:year/:title/
+blog_name: Gradients of Thought # blog_name will be displayed in your blog page
+blog_description: Random Musings, One Bounded Thought at A Time
+permalink: /sgot/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -134,7 +134,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: manfreddiaz/manfreddiaz.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
