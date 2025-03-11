@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: The Many Problems with ML Evaluation
-description: Distilling the persistent issues with ML evaluation through examples
+title: "Beyond The Score: The Problematic Science of ML Evaluation"
+description: In this post, the first of a three-part series, I want to share my perspective on the numerous persistent issues in ML evaluation.
 tags: ml evaluation elo statistics social-choice
 giscus_comments: true
 date: 2025-02-10
@@ -239,6 +239,11 @@ This is fundamental problem, and one that has been largely overlooked when apply
 
 
 [Notebook](https://colab.research.google.com/drive/1hnjwngxoMhcYP3ojCC6_Ff1zvyE8m-Rm?usp=sharing)
+
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UG0A6N0YLew?si=QpH5h062wwMOhFFD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <!-- 
 ### Metrics Aggregation
