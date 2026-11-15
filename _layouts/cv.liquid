@@ -43,6 +43,10 @@ layout: default
                 {% include cv/time_table.liquid %}
               {% elsif entry.type == 'list_groups' %}
                 {% include cv/list_groups.liquid %}
+              {% elsif entry.type == 'bibliography' %}
+                <div class="publications">
+                  {% bibliography --template cv_citation %}
+                </div>
               {% else %}
                 {{ entry.contents }}
               {% endif %}

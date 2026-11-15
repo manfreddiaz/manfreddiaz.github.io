@@ -1,0 +1,38 @@
+---
+---
+<div class="cv-publication mb-2">
+  {%- assign author_array_size = entry.author_array | size -%}
+  {%- assign author_array_limit = author_array_size -%}
+  {%- if site.max_author_limit and author_array_size > site.max_author_limit -%}
+    {%- assign author_array_limit = site.max_author_limit -%}
+  {%- endif -%}
+  {%- for author in entry.author_array limit: author_array_limit -%}
+    {%- unless forloop.first -%}, {% endunless -%}
+    {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+    {%- assign author_is_self = false -%}
+    {%- if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first -%}
+      {%- assign author_is_self = true -%}
+    {%- endif -%}
+    {%- if author_is_self -%}<strong>{%- endif -%}
+    {{- author.first }} {{ author.last -}}
+    {%- if author_is_self -%}</strong>{%- endif -%}
+  {%- endfor -%}
+  {%- if author_array_size > author_array_limit %} et al.{% endif -%}
+  {%- assign pub_url = entry.url | default: entry.pdf -%}
+  .
+  {% if pub_url -%}
+    <a href="{{ pub_url }}">{{ entry.title }}</a>
+  {%- else -%}
+    {{ entry.title }}
+  {%- endif -%}
+  .
+  {%- if entry.booktitle %} In <em>{{ entry.booktitle }}</em>,
+  {%- elsif entry.journal %} <em>{{ entry.journal }}</em>,
+  {%- elsif entry.school %} <em>{{ entry.school }}</em>,
+  {%- elsif entry.eprint %} arXiv:{{ entry.eprint }},
+  {%- endif %}
+  {{ entry.year }}.
+  {%- if entry.award_name %}
+    <span class="badge font-weight-bold danger-color-dark text-uppercase">{{ entry.award_name }}</span>
+  {%- endif %}
+</div>

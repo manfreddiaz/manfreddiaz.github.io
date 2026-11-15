@@ -9,9 +9,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Computer Science
-      institution: University of Montreal, Montreal, Canada
-      year: 2018*-
+    - title: Ph.D. in Machine Learning and Robotics
+      institution: Mila, University of Montreal, Montreal, Canada
+      year: 2018 - 2025
+      description:
+        - "Thesis: Machine Learning Through The Science of The Artificial."
     - title: M. Sc. in Computer Science
       institution: Concordia University, Montreal, Canada
       year: 2016 - 2018
@@ -22,6 +24,16 @@
 - title: Relevant Experience
   type: time_table
   contents:
+    - title: Senior Machine Learning Engineer
+      institution: DRW Holdings
+      year: 2025 - present
+      description:
+        - LLMs for multiasset trading strategies.
+    - title: MATS Fellow
+      institution: Machine Learning Alignment and Theory Scholars
+      year: 2025 - present
+      description:
+        - Specification in machine learning, with Michael Dennis.
     - title: AI Resident
       institution: Google X, Mountain View, CA
       year: 2022
@@ -34,6 +46,9 @@
     - title: Research Intern
       institution: Huawei Noah's Ark Lab, Markham, ON, Canada
       year: 2019
+
+- title: Publications
+  type: bibliography
 
 # - title: Open Source Projects
 #   type: time_table

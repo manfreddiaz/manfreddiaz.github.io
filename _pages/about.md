@@ -24,7 +24,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a final year PhD candidate in Machine Learning and Robotics at [Mila](http://mila.quebec/) under the supervision of [Liam Paull](http://liampaull.ca). My research focuses on AI and ML roots within other scientific disciplines, such as economics, game theory, mechanism design, and social choice theory, how various problems at the foundations of ML mirror others in these disciplines, and how these connections offer well-grounded frameworks for better understanding the present and shaping the future of AI. 
+I am currently wearing two hats. With one, I am a Machine Learning and Alignment Theory Scholar (MATS) Fellow working with [Michael Dennis](https://www.michaeldennis.ai/) in the problem of specification in ML. Simultaneously, I am a Senior Machine Learning Engineer at [DRW Holdings](https://drw.com) working with LLM in multiasset trading strategies.
+In 2025, I completed a Ph.D. in Machine Learning and Robotics at [Mila](http://mila.quebec/) under the supervision of [Liam Paull](http://liampaull.ca). My thesis [Machine Learning Through The Science of The Artificial](https://umontreal.scholaris.ca/items/7f86c078-3fe3-4afd-8fc0-28a8ad519581) focused on AI and ML roots within other scientific disciplines, such as economics, game theory, mechanism design, and social choice theory, how various problems at the foundations of ML mirror others in these disciplines, and how these connections offer well-grounded frameworks for better understanding the present and shaping the future of AI. 
 
 In the past, I have interned at [Google X](https://x.company), [J.P. Morgan AI Research](https://www.jpmorgan.com/technology/artificial-intelligence), [Motional Inc.](https://motional.com), and [Huawei Noah's Ark Lab Canada](https://www.noahlab.com.hk/#/home).
 
